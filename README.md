@@ -7,7 +7,7 @@
 - `tofi` 菜单
 - `mako` 通知
 ## 安装并使用
-**archlinux**
+**ArchLinux**
 ```
 pacman -S hyprland hyprpaper waybar foot tofi mako
 ```
