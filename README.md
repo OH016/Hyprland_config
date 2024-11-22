@@ -9,7 +9,7 @@
 ## 安装并使用
 **archlinux**
 ```
-sudo pacman -S hyprland hyprpaper waybar foot tofi mako
+pacman -S hyprland hyprpaper waybar foot tofi mako
 ```
 将配置文件复制到`$HOME/.config/`内即可
 
