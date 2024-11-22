@@ -1,12 +1,12 @@
 # 个人Hyprland配置文件
-## 所需软件
+## 所需软件包
 - `hyprland` 合成器
 - `hyprpaper` 壁纸
 - `waybar` 状态栏
 - `foot` 终端
 - `tofi` 菜单
 - `mako` 通知
-## 安装方式
+## 安装并使用
 **archlinux**
 ```
 sudo pacman -S hyprland hyprpaper waybar foot tofi mako
