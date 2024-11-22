@@ -34,7 +34,7 @@
     "group/control": {
         "orientation": "horizontal",
         "modules": [
-            "pulseaudio",
+            "wireplumber",
             "backlight"
         ]
     },
@@ -55,7 +55,7 @@
     },
     "clock": {
         "interval": 1,
-        "format": "\uf017 {:%H:%M}",
+        "format": " {:%H:%M}",
         "format-alt": "\uf133 {:%Y-%m-%d %H:%M:%S}"
     },
     "cpu": {
@@ -99,11 +99,9 @@
         "tooltip-format": "󰲐 {ifname} {ipaddr}/{cidr} via {gwaddr}",
         "format-alt": "{ifname}: {ipaddr}/{cidr}"
     },
-    "pulseaudio": {
+    "wireplumber": {
         "format": "{icon} {volume}% ",
         "format-muted": "",
-        "format-bluetooth": "{icon} {volume}%",
-        "format-bluetooth-muted": " {icon}",
         "format-icons": {
             "headphone": "",
             "hands-free": "",
