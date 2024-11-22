@@ -11,5 +11,5 @@
 ```
 sudo pacman -S hyprland hyprpaper waybar foot tofi mako
 ```
-将配置文件复制到`$HOME/.config/`内即可
+将配置文件复制到`$HOME/.config/`内即可 \n
 hyprpaper指向`~/Picture/Wallpaper/main.jpg`
