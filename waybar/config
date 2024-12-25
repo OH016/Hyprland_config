@@ -1,13 +1,11 @@
-{
-    "layer": "top",
-    "position": "top",
+[{
+    "output": "eDP-1",
     "height": 40,
     "spacing": 6,
     "modules-left": [
         "hyprland/workspaces",
         "hyprland/window"
     ],
-    "modules-center": [],
     "modules-right": [
         "tray",
         "group/networks",
@@ -55,8 +53,9 @@
     },
     "clock": {
         "interval": 1,
-        "format": " {:%H:%M}",
-        "format-alt": "\uf133 {:%Y-%m-%d %H:%M:%S}"
+        "format": "{:%H:%M}",
+        "format-alt": "\uf133 {:%Y-%m-%d %H:%M:%S}",
+        "tooltip": false
     },
     "cpu": {
         "interval": 1,
@@ -88,27 +87,23 @@
         ]
     },
     "temperature": {
-        "format": " {temperatureC}°C "
+        "format": " {temperatureC}°C ",
+        "tooltip": false
     },
     "network": {
         "interval": 1,
         "format-wifi": "󰤨 {essid}",
         "format-ethernet": "\uf796 {bandwidthUpBits} {bandwidthDownBits}",
         "format-linked": "󰤨 {ifname} (No IP)",
-        "format-disconnected": "⚠ Disconnected",
+        "format-disconnected": " Disconnected",
         "tooltip-format": "󰲐 {ifname} {ipaddr}/{cidr} via {gwaddr}",
         "format-alt": "{ifname}: {ipaddr}/{cidr}"
     },
     "wireplumber": {
         "format": "{icon} {volume}% ",
-        "format-muted": "",
+        "format-muted": "󰝟 ",
         "format-icons": {
             "headphone": "",
-            "hands-free": "",
-            "headset": "",
-            "phone": "",
-            "portable": "",
-            "car": "",
             "default": [
                 "",
                 "",
@@ -130,4 +125,33 @@
         "tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
         "tooltip-format-enumerate-connected-battery": "{device_alias}\t{device_address}\t{device_battery_percentage}%"
     }
-}
+},
+{
+    "output": "DP-1",
+    "height": 40,
+    "spacing": 6,
+    "modules-left": [
+        "hyprland/workspaces",
+        "hyprland/window"
+    ],
+    "modules-right": [
+        "clock"
+    ],
+    "hyprland/workspaces": {
+        "format": "{icon}",
+        "sort-by-number": true,
+        "on-click": "activate",
+        "on-scroll-up": "hyprctl dispatch workspace e+1",
+        "on-scroll-down": "hyprctl dispatch workspace e-1"
+    },
+    "hyprland/window": {
+        "format": "\uf061 {}",
+        "separate-outputs": true
+    },
+    "clock": {
+        "interval": 1,
+        "format": "{:%H:%M}",
+        "format-alt": "\uf133 {:%Y-%m-%d %H:%M:%S}",
+        "tooltip": false
+    }
+}]
