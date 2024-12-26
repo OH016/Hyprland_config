@@ -13,7 +13,8 @@
 ```
 pacman -S hyprland hyprpaper waybar foot tofi mako hyprlock hypridle
 ```
-将配置文件复制到`$HOME/.config/`内即可
+将配置文件复制到`~/.config/`内即可
 
 hyprpaper指向`~/Picture/Wallpaper/main.jpg`
+
 hypridle指向 `~/Picture/me/cutie.jpeg`
