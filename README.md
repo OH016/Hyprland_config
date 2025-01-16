@@ -3,7 +3,7 @@
 - `hyprland` 混成器 
 - `hyprlock` 锁屏程序
 - `hypridle` 闲置守护程序
-- `hyprpaper` 壁纸程序
+- `hyprpaper` 壁纸程序 - 可选 `wbg` (AUR)
 - `waybar` 状态栏
 - `foot` 终端
 - `tofi` 菜单
@@ -11,10 +11,12 @@
 ## 安装并使用
 **ArchLinux**
 ```
-pacman -S hyprland hyprpaper waybar foot tofi mako hyprlock hypridle
+pacman -S hyprland hyprpaper waybar foot tofi mako hyprlock hypridle # 可选 wbg
 ```
 将配置文件复制到`~/.config/`内即可
 
 hyprpaper指向`~/Picture/Wallpaper/main.jpg`
+
+wbg在hyprland.conf里修改
 
 hypridle指向 `~/Picture/me/cutie.jpeg`
