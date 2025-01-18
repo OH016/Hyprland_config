@@ -3,7 +3,7 @@
 - `hyprland` 混成器 
 - `hyprlock` 锁屏程序
 - `hypridle` 闲置守护程序
-- `hyprpaper` 壁纸程序 - 可选 `wbg` (AUR)
+- `hyprpaper` 壁纸程序 - 可选 `wbg` (AUR) 注: 我默认使用的是wbg
 - `waybar` 状态栏
 - `foot` 终端
 - `tofi` 菜单
