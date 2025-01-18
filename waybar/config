@@ -44,7 +44,7 @@
         "on-scroll-down": "hyprctl dispatch workspace e-1"
     },
     "hyprland/window": {
-        "format": "\uf061 {}",
+        "format": "\uf061\u2005{}",
         "separate-outputs": true
     },
     "tray": {
@@ -93,7 +93,7 @@
     "network": {
         "interval": 1,
         "format-wifi": "󰤨 {essid}",
-        "format-ethernet": "\uf796 {bandwidthUpBits} {bandwidthDownBits}",
+        "format-ethernet": "󰌷 {bandwidthUpBits} {bandwidthDownBits}",
         "format-linked": "󰤨 {ifname} (No IP)",
         "format-disconnected": " Disconnected",
         "tooltip-format": "󰲐 {ifname} {ipaddr}/{cidr} via {gwaddr}",
