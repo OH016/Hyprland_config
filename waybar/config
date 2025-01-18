@@ -44,26 +44,26 @@
         "on-scroll-down": "hyprctl dispatch workspace e-1"
     },
     "hyprland/window": {
-        "format": "\uf061\u2005{}",
+        "format": "\uf061\u2002{}",
         "separate-outputs": true
     },
     "tray": {
-        "icon-size": 21,
+        "icon-size": 25,
         "spacing": 10
     },
     "clock": {
         "interval": 1,
         "format": "{:%H:%M}",
-        "format-alt": "\uf133 {:%Y-%m-%d %H:%M:%S}",
+        "format-alt": "\uf133\u2002{:%Y-%m-%d %H:%M:%S}",
         "tooltip": false
     },
     "cpu": {
         "interval": 1,
-        "format": " {usage}% "
+        "format": "\u2002{usage}%\u2002"
     },
     "memory": {
         "interval": 1,
-        "format": " {}% "
+        "format": "\u2002{}%\u2002"
     },
     "battery": {
         "bat": "BAT0",
@@ -72,7 +72,7 @@
             "warning": 30,
             "critical": 15
         },
-        "format": "{icon} {capacity}%",
+        "format": "{icon}\u2002{capacity}%",
         "format-icons": [
             "󰁺",
             "󰁻",
@@ -87,21 +87,21 @@
         ]
     },
     "temperature": {
-        "format": " {temperatureC}°C ",
+        "format": "\u2002{temperatureC}°C\u2002",
         "tooltip": false
     },
     "network": {
         "interval": 1,
-        "format-wifi": "󰤨 {essid}",
-        "format-ethernet": "󰌷 {bandwidthUpBits} {bandwidthDownBits}",
-        "format-linked": "󰤨 {ifname} (No IP)",
-        "format-disconnected": " Disconnected",
-        "tooltip-format": "󰲐 {ifname} {ipaddr}/{cidr} via {gwaddr}",
-        "format-alt": "{ifname}: {ipaddr}/{cidr}"
+        "format-wifi": "󰤨\u2002{essid}",
+        "format-ethernet": "󰌷\u2002{bandwidthUpBits}\u2002{bandwidthDownBits}",
+        "format-linked": "󰤨\u2002{ifname}\u2002(No IP)",
+        "format-disconnected": "\u2002Disconnected",
+        "tooltip-format": "󰲐\u2002{ifname}\u2002{ipaddr}/{cidr}\u2002via\u2002{gwaddr}",
+        "format-alt": "{ifname}:\u2002{ipaddr}/{cidr}"
     },
     "wireplumber": {
-        "format": "{icon} {volume}% ",
-        "format-muted": "󰝟 ",
+        "format": "{icon}\u2002{volume}%\u2002",
+        "format-muted": "󰝟\u2002",
         "format-icons": {
             "headphone": "",
             "default": [
@@ -113,15 +113,15 @@
         "on-click-right": "pavucontrol"
     },
     "backlight": {
-        "format": "󰖨 {percent}%",
+        "format": "󰖨\u2002{percent}%",
         "tooltip": false
     },
     "bluetooth": {
-        "format": " {status} ",
-        "format-connected": " {device_alias}",
-        "format-connected-battery": " {device_alias} {device_battery_percentage}% ",
-        "tooltip-format": "{controller_alias}\t{controller_address}\n\n{num_connections} connected",
-        "tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{num_connections} connected\n\n{device_enumerate}",
+        "format": "\u2002{status}\u2002",
+        "format-connected": "\u2002{device_alias}",
+        "format-connected-battery": "\u2002{device_alias}\u2002{device_battery_percentage}%\u2002",
+        "tooltip-format": "{controller_alias}\t{controller_address}\n\n{num_connections}\u2002connected",
+        "tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{num_connections}\u2002connected\n\n{device_enumerate}",
         "tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
         "tooltip-format-enumerate-connected-battery": "{device_alias}\t{device_address}\t{device_battery_percentage}%"
     }
@@ -145,13 +145,13 @@
         "on-scroll-down": "hyprctl dispatch workspace e-1"
     },
     "hyprland/window": {
-        "format": "\uf061 {}",
+        "format": "\uf061\u2002{}",
         "separate-outputs": true
     },
     "clock": {
         "interval": 1,
         "format": "{:%H:%M}",
-        "format-alt": "\uf133 {:%Y-%m-%d %H:%M:%S}",
+        "format-alt": "\uf133\u2002{:%Y-%m-%d %H:%M:%S}",
         "tooltip": false
     }
 }]
